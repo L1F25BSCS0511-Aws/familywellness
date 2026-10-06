@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Family Wellness Massage Therapy</title>
+<style>
+:root{--plum:#9b1c4b;--grey:#a39e99;--ink:#555;--bg:#fafafa;--card:#fff;--rule:#ccc;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1c1a1b;--card:#242122;--ink:#cfc9cb;--rule:#444;--grey:#6f6a66}}
+:root[data-theme="dark"]{--bg:#1c1a1b;--card:#242122;--ink:#cfc9cb;--rule:#444;--grey:#6f6a66}
+html{scroll-behavior:smooth;scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Source Sans 3","Segoe UI",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.6}
+.wrap{max-width:760px;margin:0 auto}
+header{padding:22px 16px 14px}
+.logo{font-size:30px;color:var(--plum);margin:0;font-weight:400;line-height:1.1}
+.tag{font-size:11px;letter-spacing:2px;text-transform:uppercase;margin:6px 0 16px;color:var(--ink)}
+nav{display:flex;background:var(--grey)}
+nav a{flex:1;text-align:center;color:#fff;text-decoration:none;font-size:10px;font-weight:700;text-transform:uppercase;padding:10px 4px;letter-spacing:.5px}
+nav a.active{background:var(--plum)}
+nav a:hover{background:var(--plum)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--plum);outline-offset:2px}
+main{background:var(--card)}
+.slider{position:relative;height:280px;margin:0 16px;overflow:hidden;background:linear-gradient(180deg,#dfe6e8 0%,#c9d3d6 45%,#8aa08e 70%,#6d7d6a 100%)}
+.slider svg{position:absolute;inset:0;width:100%;height:100%}
+.arrows{position:absolute;right:12px;bottom:10px;color:#fff;font-size:12px;letter-spacing:6px}
+.dots{position:absolute;left:12px;bottom:10px;display:flex;gap:3px}
+.dots i{width:12px;height:4px;background:#fff;opacity:.6}
+.dots i:nth-child(2){opacity:1}
+.hero{background:var(--plum);color:#fff;text-align:center;padding:36px 20px 40px;margin-top:24px}
+.hero h1{font-size:28px;font-weight:400;margin:0 0 16px}
+.hero p{font-size:11px;font-weight:700;max-width:340px;margin:0 auto 24px;line-height:1.5}
+.btns{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.btn{border:1px solid #fff;color:#fff;text-decoration:none;font-size:10px;text-transform:uppercase;padding:10px 24px;letter-spacing:.3px}
+.btn:hover{background:#fff;color:var(--plum)}
+.intro{padding:30px 16px 20px}
+.intro p{font-size:10.5px;margin:0 0 16px}
+.intro p:first-child{color:var(--plum)}
+.contact{border-top:1px solid var(--rule);margin:10px 16px 0;padding:32px 0 28px;text-align:center}
+.contact h2{color:var(--plum);font-size:15px;font-weight:400;margin:0 0 16px}
+.contact p{font-size:10.5px;margin:0}
+footer{background:var(--grey);text-align:center;font-size:6px;color:#222;padding:12px 8px}
+.powered{text-align:center;font-size:10px;padding:14px 0 24px}
+@media(max-width:480px){.slider{height:200px}.hero h1{font-size:23px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header id="home">
+    <h1 class="logo">Family Wellness</h1>
+    <p class="tag">Massage Therapy</p>
+    <nav aria-label="Main">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <div class="slider" role="img" aria-label="Two women talking on a bench by the water">
+      <svg viewBox="0 0 700 280" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+        <defs>
+          <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e9eef0"/><stop offset="1" stop-color="#cfdadd"/></linearGradient>
+          <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a9bcc4"/><stop offset="1" stop-color="#8ea6b0"/></linearGradient>
+        </defs>
+        <rect width="700" height="280" fill="url(#sky)"/>
+        <path d="M380 128 Q440 104 500 118 T640 112 L700 120 L700 140 L380 140Z" fill="#9fb0b8"/>
+        <rect y="136" width="700" height="60" fill="url(#sea)"/>
+        <path d="M0 190 H700 V215 H0Z" fill="#b9b3a8"/>
+        <path d="M0 215 H700 V280 H0Z" fill="#7d9566"/>
+        <path d="M0 215 Q60 200 130 222 L90 280 H0Z" fill="#6a8554"/>
+        <g fill="#2e4a38"><path d="M30 20 L60 90 H0Z"/><path d="M30 60 L68 140 H-8Z"/><path d="M80 30 L115 120 H45Z"/><path d="M85 80 L130 180 H40Z"/><path d="M135 50 L165 130 H105Z"/></g>
+        <rect x="26" y="130" width="8" height="60" fill="#3d2f25"/><rect x="82" y="150" width="8" height="40" fill="#3d2f25"/>
+        <!-- bench -->
+        <g>
+          <polygon points="190,196 560,206 560,226 190,214" fill="#9a7b5e"/>
+          <polygon points="190,214 560,226 560,234 190,222" fill="#6e5640"/>
+          <rect x="230" y="222" width="10" height="46" fill="#4f6670" transform="rotate(8 235 222)"/>
+          <rect x="500" y="228" width="10" height="46" fill="#4f6670"/>
+          <rect x="440" y="150" width="10" height="70" fill="#4f6670"/>
+        </g>
+        <!-- woman left -->
+        <g>
+          <path d="M215 150 q-8 -48 28 -52 q38 -2 34 46 q-6 28 -30 32 q-22 -2 -32 -26Z" fill="#4a2f22"/>
+          <ellipse cx="248" cy="132" rx="26" ry="30" fill="#9a6a4b"/>
+          <path d="M224 118 q24 -26 50 0 q-6 -12 -25 -12 q-18 0 -25 12Z" fill="#4a2f22"/>
+          <path d="M226 118 q24 -10 48 0 v6 q-24 -8 -48 0Z" fill="#c7b49a"/>
+          <path d="M236 134 q5 3 10 0 M254 134 q5 3 10 0" stroke="#2b1a12" stroke-width="2" fill="none" stroke-linecap="round"/>
+          <path d="M238 146 q12 12 26 0" stroke="#fff" stroke-width="3" fill="#fff" stroke-linejoin="round"/>
+          <path d="M215 176 q33 -14 66 0 l22 36 h-110Z" fill="#6b4a42"/>
+          <path d="M215 176 l-14 40 l22 4 l12 -26Z" fill="#6b4a42"/>
+        </g>
+        <!-- woman right -->
+        <g>
+          <ellipse cx="370" cy="128" rx="24" ry="28" fill="#e3b79a"/>
+          <path d="M346 124 q-6 -34 24 -38 q34 -2 30 34 q-4 -10 -14 -16 q-14 8 -40 20Z" fill="#c05a2b"/>
+          <path d="M346 126 q-10 14 4 24 q-4 -14 2 -22Z" fill="#c05a2b"/>
+          <path d="M352 140 q10 14 28 8" stroke="#a8745a" stroke-width="2" fill="none" stroke-linecap="round"/>
+          <path d="M335 176 q40 -16 78 0 l8 44 l-100 -2Z" fill="#2f6db5"/>
+          <path d="M330 190 q-28 12 -52 22 l6 12 q30 -6 54 -16Z" fill="#2f6db5"/>
+          <path d="M282 214 q-6 4 -8 12 q10 -2 14 -10Z" fill="#e3b79a"/>
+        </g>
+      </svg>
+      <div class="dots"><i></i><i></i><i></i></div>
+      <div class="arrows">‹ ›</div>
+    </div>
+    <section class="hero">
+      <h1>Think Health. Think Massage.</h1>
+      <p>We are open 9am to 6pm; Monday through Sunday. If you would like to schedule an appointment with us, please call us at 987-654-3210 today!</p>
+      <div class="btns">
+        <a class="btn" href="#about">Learn more about us</a>
+        <a class="btn" href="#contact">Contact us today</a>
+      </div>
+    </section>
+    <section class="intro" id="about">
+      <p>Are you looking for a professional, registered massage therapist? Sample Massage Therapy has 4 registered massage therapists who can provide clinical massage.</p>
+      <p id="services">We are committed to your long term health and well-being. Our multi-disciplinary clinic provides a balanced approach to a healthy lifestyle. Enhance your health and improve your performance with our treatments.</p>
+      <p id="faq">We welcome you to come explore all the benefits you'll enjoy as one of our valued guests. Our professional staff is committed to offering the best massage therapy in Mainland.</p>
+    </section>
+    <section class="contact" id="contact">
+      <h2>Family Wellness Massage Therapy</h2>
+      <p>9876 Main Street, Suite 123, Mainland, ML12345</p>
+      <p>Phone: 987.654.3210</p>
+    </section>
+  </main>
+  <footer>Copyright 2016. Website.com. All Rights Reserved.</footer>
+  <div class="powered">Powered by Website.com</div>
+</div>
+</body>
+</html>
